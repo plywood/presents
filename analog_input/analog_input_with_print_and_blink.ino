@@ -1,6 +1,6 @@
-/*
-  Analog Input can be used to detect a touch of our finger.
-*/
+// Analog Input can be used to detect a touch of our finger.
+// and it works wery well with a charged plastic pen
+
 
 int sensorPin = A0;    // select the input pin for the potentiometer
 int ledPin = 13;       // select the pin for the LED
@@ -17,12 +17,12 @@ void loop() {
   sensorValue = analogRead(sensorPin);
   Serial.println(sensorValue);
   
-  // turn the ledPin on
-  digitalWrite(ledPin, HIGH);
-  // stop the program for <sensorValue> milliseconds:
-  delay(50);
-  // turn the ledPin off:
-  digitalWrite(ledPin, LOW);
-  // stop the program for for <sensorValue> milliseconds:
+  // turn on and off led upon sensor value
+  if (sensorValue > 400) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn the ledPin off:
+    digitalWrite(ledPin, LOW);
+  }
   delay(50);
 }
