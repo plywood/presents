@@ -1,8 +1,11 @@
 //This is an implementation of a grideye with ST7735 1.8 display 
-//We need two libraries: 
+// We need two libraries: 
 //1. Go to Library Manager and install "SparkFun_GridEYE_Arduino_Library"
 //2. In the Library manger search and install "Adafruit ST7735 and ST7789 Library"
-//3. Open new file delete everything and paste the code from 
+//3. Go to https://github.com/plywood/presents -> GRIDEYE -> ST7735TFT_GRIDEYE.ino
+//4. In ArduinoIDE -> File -> New  
+//5. Delete everything and paste the code from above ST7735TFT_GRIDEYE.ino
+//6. Compile and Load. At that point you should see writing on the TFT and 64 squares of various colors in 8x8 grid.
 
 
 // using example code from https://learn.sparkfun.com/tutorials/qwiic-grid-eye-infrared-array-amg88xx-hookup-guide
