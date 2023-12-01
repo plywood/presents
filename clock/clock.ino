@@ -1,4 +1,4 @@
-/* Arduino example code to display a 24 hour time format clock on a TM1637 4 digit 7 segment display with a DS32321 RTC. More info: www.www.makerguides.com */
+/* Arduino example code to display a 24 hour time format clock on a TM1637 4 digit 7 segment display with a DS32321 RTC. More info: https://www.makerguides.com/tm1637-arduino-tutorial */
 
 ////////////////////////////
 // Download 2 libraries:
